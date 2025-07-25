@@ -1,0 +1,22 @@
+# Archivos de caché de Python
+__pycache__/
+*.pyc
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# Ignorar el perfil de Chrome para no subir datos de sesión
+AutomationProfile/
+
+# Ignorar la carpeta de backups para no subir datos de contactos
+backup/
+
+# Archivos de log generados
+chromedriver.log
+geckodriver.log
+
+# Archivos de configuración de IDEs
+.idea/
+.vscode/
